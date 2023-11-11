@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #27c6d9;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background: #ddd;
+            font-weight: bold;
+            color: black;
+        }
+
+        .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="https://www.facebook.com/whitetasselproductions?mibextid=ZbWKwL">About</a>
+        <a href="#account">Account</a>
+    </div>
+    <div class="title">
+        <img src="https://cdn.discordapp.com/attachments/1118888516177367081/1167680236461232260/output-onlinepngtools_1.png?ex=654f01f6&is=653c8cf6&hm=7d003bc259b854424987d225ac219edc7ec2b10e3886ddbb154b2650690ee791&">
+    </div>
+</body>
+</html>
